@@ -46,18 +46,35 @@
             <% const categories = ["Trending", "Rooms", "Iconic Cities", "Mountain", "Castles", "Amazing Pools", "Camping", "Farms", "Arctic"]; %>
             <div class="filter">
                 <a href="/listing">
-                    <div><i class="fa-solid fa-list"></i></div>
+                    <div><i class="fa-solid fa-house"></i></div>
                     <p>Show All</p>
                 </a>
             </div>
-            <% categories.forEach(category => { %>
-                <div class="filter">
-                    <a href="?category=<%= category %>">
-                        <div><i class="fa-solid fa-fire"></i></div>
-                        <p><%= category %></p>
-                    </a>
-                </div>
-            <% }); %>
+           <% 
+    
+    const categoryIcons = {
+        'Trending': 'fa-solid fa-fire',
+        'Rooms': 'fa-solid fa-bed',
+        'Iconic Cities': 'fa-solid fa-city',
+        'Mountain': 'fa-solid fa-mountain',
+        'Castles': 'fa-solid fa-chess-rook',
+        'Amazing Pools': 'fa-solid fa-swimming-pool',
+        'Camping': 'fa-solid fa-campground',
+        'Farms': 'fa-solid fa-tractor',
+        'Arctic': 'fa-solid fa-snowflake'
+    };
+%>
+
+<% categories.forEach(category => { %>
+    <div class="filter">
+        <a href="?category=<%= category %>">
+            <!-- Use the categoryIcons object to select the appropriate icon class -->
+            <div><i class="<%= categoryIcons[category] %>"></i></div>
+            <p><%= category %></p>
+        </a>
+    </div>
+<% }); %>
+
             <div class="tax-toggle">
                 <div class="form-check-reverse form-switch mt-2">
 
