@@ -1,3 +1,4 @@
+
 # TrailsByKav
 
 **TrailsByKav** is a feature-rich full-stack web application inspired by Airbnb. It allows users to explore various listings, create their own travel destinations, leave reviews, and manage accounts with ease. The project showcases modern web development practices using technologies like MongoDB, Node.js, and Express.js. It also integrates interactive maps, user authentication, and image storage, making it a comprehensive platform for discovering unique travel spots.
@@ -68,17 +69,23 @@
 
 ## 📸 Screenshots
 
-### Home Page
-Showcases listings from all over the world with interactive Mapbox maps.
-![Homepage](https://via.placeholder.com/500)
+![Home Page](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo1.png)
+*Home Page showcasing featured listings.*
 
-### Listing Page
-View individual listings, including location, description, and user reviews.
-![Listing Page](https://via.placeholder.com/500)
+![Listing Page](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo2.png)
+*Individual listing page with details and interactive map.*
 
-### User Profile
-Manage account details and view your listings.
-![Profile](https://via.placeholder.com/500)
+![User Profile](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo3.png)
+*User profile section for managing account details.*
+
+![Review Section](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo4.png)
+*User review system where users can leave feedback on listings.*
+
+![Interactive Map](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo5.png)
+*Mapbox integration showcasing dynamic maps.*
+
+![Login Page](https://github.com/KavyaSingh236/TrailsByKav/blob/main/demo6.png)
+*Login page for user authentication.*
 
 ---
 
@@ -97,5 +104,12 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ---
 
+## 👨‍💻 About the Developer
 
+**Kavya Singh**  
+Innovative Full-Stack Developer with a passion for building dynamic web applications and creating seamless user experiences. Strong expertise in the MERN stack, backed by a solid foundation in Java, Python, and Django.
+
+[LinkedIn](https://www.linkedin.com/in/kavya-singh) | [GitHub](https://github.com/kavyasingh)
+
+---
 
